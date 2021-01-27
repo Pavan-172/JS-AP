@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .input{
+        font-family: 'Brush Script MT', 'Brush Script Std', 'cursive' ; 
+        font-size: large; 
+        outline:none; 
+        margin: auto; 
+        border-right: none; 
+        border-top: none; 
+        border-left: none;
+    }
+</style>
+
+<body>
+    
+    <form name="myForm" action="subscribe.cgi" method="post" >
+    <div style="width: 50%; margin-left: auto;  margin-right: auto; border: 3px solid black; padding: 20px;height:200%;">
+        <h1 style="background-color: red; text-align: center; color: white;">Yes! I want to subscribe to
+            Mag-O-Zine</h1>
+        <div >
+            
+            <table style="width:70" cellspacing="8" >
+                <tr>
+                  <th><input type="text" name="fname" style=" margin-right: 50px;
+                    margin-left: 30px; " /></th>
+                  <th><input type="text" name="lname" style=" margin-right: 100px;
+                    margin-left: 200px; " /></th> 
+                  
+                </tr>
+                <tr  >
+                  <th style="margin-left: 50px;">Firstname</th>
+                  
+                  <th style=" margin-right: 200px;margin-left: 200px;">Lastname</th>
+                  
+                </tr>
+                
+              </table>
+                  
+            
+            <div>
+                <table style="width:70" cellspacing="10" >
+                    <tr>
+                      <th><input type="text" name="address" size="80"style=" margin-right: 50px;
+                        margin-left: 30px; " ></th>
+                      
+                      
+                    </tr>
+                    <tr  >
+                        <th >Address</th>
+                        
+                        
+                      </tr>
+                    
+                  </table>
+        </div>
+            <br />
+            <div>
+                <table style="width:100" cellspacing="1"  >
+                    <tr >
+                        <th><input type="text" name="city" style=" margin-right: 50px;
+                            margin-left: 20px; " /></th>
+                        <th><input type="text" name="state"  style=" margin-right: 50px;
+                                margin-left: 20px; " /></th>
+                               
+                        <th><input type="text" name="zip"  style=" margin-right: 40px;
+                            margin-left: 10px; " /></th> 
+                                   
+                    </tr>
+                    <tr>
+                      <td style=" margin-right: 50px;
+                      margin-left: 30px; " >City</td>
+                      <td  style="margin-right: 50px;
+                      margin-left: 30px; " >State</td>
+                      <td  style=" margin-right: 100px;
+                      margin-left: 100px; " >Zip</td>
+                    </tr>
+                    
+                  </table>    
+        </div>
+                
+           
+    
+    
+    <div>
+       <b> Subcribe for:
+        <input type="radio" name="years" value="1" /> 1 year ($19.95)
+        <input type="radio" name="years" value="2" checked="checked" /> 2 years ($35.00)
+    <br>
+        Send me more information about: <br>
+        <input type="checkbox" name="subscription">Computer-Zine <br>
+        <input type="checkbox" name="subscription">Fishing-Zine <br>
+        <input type="checkbox" name="subscription">Cat-O-Zine <br></b>
+    
+</div>
+    </form>
+    
+</body>
+
+</html>
